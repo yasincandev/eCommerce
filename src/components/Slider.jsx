@@ -106,7 +106,7 @@ const Slider = () => {
               <Desc>{item.desc}</Desc>
               <Button>
                 <Link
-                  style={{ textDecoration: "none" }}
+                  style={{ textDecoration: "none", color: "inherit" }}
                   to="/products/:category"
                 >
                   SHOP NOW
