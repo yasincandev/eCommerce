@@ -114,12 +114,12 @@ const Footer = () => {
         <Title>Useful Links</Title>
         <List>
           <ListItem>
-            <Link to="/" style={{ textDecoration: "none", color: "gray" }}>
+            <Link to="/" style={{ textDecoration: "none" }}>
               Home
             </Link>
           </ListItem>
           <ListItem>
-            <Link to="/cart" style={{ textDecoration: "none", color: "gray" }}>
+            <Link to="/cart" style={{ textDecoration: "none" }}>
               Cart
             </Link>
           </ListItem>
