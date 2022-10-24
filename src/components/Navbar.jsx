@@ -81,8 +81,8 @@ const Navbar = () => {
         </Left>
         <Center>
           <Logo>
-            <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
-              LAMA.
+            <Link to='/' style={{ textDecoration: "none", color: "inherit" }}>
+              SHOP.
             </Link>
           </Logo>
         </Center>
@@ -90,7 +90,7 @@ const Navbar = () => {
           <MenuItem>
             <Link
               style={{ textDecoration: "none", color: "black" }}
-              to="/register"
+              to='/register'
             >
               {" "}
               REGISTER
@@ -99,15 +99,15 @@ const Navbar = () => {
           <MenuItem>
             <Link
               style={{ textDecoration: "none", color: "black" }}
-              to="/login"
+              to='/login'
             >
               SIGN IN
             </Link>
           </MenuItem>
           <MenuItem>
-            <Badge badgeContent={4} color="primary">
+            <Badge badgeContent={4} color='primary'>
               <Link
-                to="/cart"
+                to='/cart'
                 style={{ textDecoration: "none", color: "black" }}
               >
                 <ShoppingCartOutlined />
